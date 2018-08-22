@@ -1,10 +1,6 @@
 /*
- *  Interrupt and PWM utilities for 16 bit Timer3 and on ATmega168/328/2560
- *  Original code by Jesse Tane for http://labs.ideo.com August 2008
- *  Modified March 2009 by Jérôme Despatis and Jesse Tane for ATmega328 support
- *  Modified June 2009 by Michael Polli and Jesse Tane to fix a bug in setPeriod() which caused the timer to stop
- *  Modified Oct 2009 by Dan Clemens to work with timer3 of the ATMega1280 or Arduino Mega
- *  Modified Feb 2014 by Davide "Deid" Ferrero to port the code from Timer3 to Timer4 on ATMega2560
+ *  Wrapper library for Timer1, Timer3, Timer4, and Timer5 libraries.
+ *  Original code by Michael Ploof, November 2017
  *
  *  This is free software. You can redistribute it and/or modify it under
  *  the terms of Creative Commons Attribution 3.0 United States License.
